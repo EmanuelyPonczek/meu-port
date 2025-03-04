@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Manu | Contato</title>
+  <meta name="title" content="Manu | Contato">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- SweetAlert2 CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<!-- SweetAlert2 JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/require.css">
+  <link rel="stylesheet" href="./assets/css/pages/contact.css">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="./index.html" class="logo">
+        <img src="./assets/images/logo-manu.svg" width="151" height="28" alt="Annie home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="label-lg navbar-link has-after">INÍCIO</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./service.html" class="label-lg navbar-link has-after">SERVIÇOS</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./portfolio.html" class="label-lg navbar-link has-after">PORTIFÓLIO</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">CONTATO</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="https://spurious-chess-17f.notion.site/Emanuely-Ponczek-120bdc3ee49680a6aed4da68a6c0830e?pvs=4" class="btn btn-primary">CURRÍCULO</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact has-bg-image" aria-labelledby="contact-label"
+        style="background-image: url('./assets/images/contact-bg.png')">
+        <div class="container">
+
+          <form action="" class="contact-form">
+            <h2 class="headline-sm" id="contact-label">Deseja me contratar?</h2>
+            <p class="contact-text body-md">Entre em contato comigo :)</p>
+        
+            <div class="wrapper">
+                <div>
+                    <label for="name" class="label">Primeiro nome</label>
+                    <input type="text" name="name" id="name" placeholder="Nome *" required class="input-field">
+                </div>
+                <div>
+                    <label for="email" class="label">Seu email</label>
+                    <input type="email" name="email" id="email" placeholder="Email *" required class="input-field">
+                </div>
+            </div>
+        
+            <label for="subject" class="label">Assunto</label>
+            <input type="text" name="subject" id="subject" placeholder="Assunto *" class="input-field">
+        
+            <label for="message" class="label">Sua mensagem</label>
+            <textarea name="message" id="message" placeholder="Escreva aqui.. *" required class="input-field"></textarea>
+        
+            <a href="#" id="send-whatsapp" class="btn btn-tertiary">Enviar Mensagem</a>
+        </form>
+        
+
+          <div class="contact-content">
+
+            <ul class="contact-list">
+
+              <!-- parte telefone -->
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(177, 39%, 72%)">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Celular</p>
+
+                  <a href="" class="body-lg">+55 41 99751-9360</a>
+                </div>
+
+              </li>
+
+              <!-- parte email -->
+              <li class="contact-item">
+
+                <div class="item-icon" style="background-color: hsl(41, 99%, 64%)">
+                  <ion-icon name="mail" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div>
+                  <p class="label-lg">Email</p>
+
+                  <a href="" class="body-lg">emanuely.uxui@gmail.com</a>
+                </div>
+
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.instagram.com/emanuely_ponczek?igsh=YWk5NHBkaDNicDl0" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/emanuely-p0nczek?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5541997519360&text=Olá,%20gostaria%20de%20conversar!" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy;2024 Todos os direitos reservados | Feito por <a style="color: blueviolet;" href="https://api.whatsapp.com/send?phone=5541984656059&text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento!">Gabriel Fonseca</a></p>
+      
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <script>
+    
+  </script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
